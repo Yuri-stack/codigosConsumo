@@ -5,17 +5,6 @@ export default interface Usuario {
     nome: string;
     usuario: string;
     senha: string;
-    foto: string;
-    postagem?: Postagem | null; // || => ou
-}
-
-// Tipar objetos
-
-let user: Usuario = {
-    id: 1,
-    nome: "Gustavo",
-    usuario: "gustavo@gustavo.com",
-    senha: "futebol",
-    foto: "",
-    postagem: null
+    foto: string
+    postagem?: Postagem | null;
 }
